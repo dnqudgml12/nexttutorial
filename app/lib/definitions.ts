@@ -24,6 +24,11 @@ export type Invoice = {
   // In TypeScript, this is called a string union type.
   // It means that the "status" property can only be one of the two strings: 'pending' or 'paid'.
   status: 'pending' | 'paid';
+  // status안에 값 의미
+  // pending: 대기 중
+  // paid: 지불 완료
+
+
 };
 
 export type Revenue = {
